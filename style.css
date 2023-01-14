@@ -12,19 +12,29 @@ body {
 .container {
     position: relative;
     width: 360px;
-    height: 790px;/*640*/
-    background: rgba(0, 0, 0, 0.2);
+    height: 790px;
+    /*640*/background: rgba(0, 0, 0, 0.2);
     transform: rotate(-30deg) skew(25deg) scale(0.8);
     -webkit-transform: rotate(-30deg) skew(25deg) scale(0.8);
     -moz-transform: rotate(-30deg) skew(25deg) scale(0.8);
     -ms-transform: rotate(-30deg) skew(25deg) scale(0.8);
     -o-transform: rotate(-30deg) skew(25deg) scale(0.8);
     margin-top: 150px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 .container img {
     position: absolute;
     width: 100%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 .container img:nth-child(1) {
